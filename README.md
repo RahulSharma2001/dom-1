@@ -10,19 +10,18 @@ This project focuses on improving the user interface (UI) of a web page by imple
 
 Follow these instructions to enhance the UI:
 
-1. Clone the repository to your local machine.
+* Clone the repository to your local machine.
 
    ```bash
    git clone yourUrl
    Open the project in your preferred code editor.
-
-Navigate to the index.html file and ensure it includes a <div> element with a unique id (e.g., <div id="targetElement[div]">). This will be the element that undergoes the UI enhancements.
+   
+Navigate to the index.html file and ensure it includes a <div> element with a unique id (e.g., <div id="targetElement[div]">). 
+This will be the element that undergoes the UI enhancements.
 
 JavaScript Operations
 1. Retrieve the Target Element
 Use the getElementById method to retrieve the target <div> element. Store it in a variable for further manipulation.
-
-javascript
 const targetElement = document.getElementById('div');
 2. Change Background Color
 Change the background color of the fetched <div> element to yellow.
@@ -46,6 +45,8 @@ targetElement.style.height = '200px';
 Modify the width of the element to 300 pixels.
 targetElement.style.width = '300px';
 
-##Extra's
+## Extra's
+
 div.innerText = "Hello, I'm a div!";
+
 div.style.color = "#0000D6";

@@ -1,0 +1,10 @@
+let div = document.getElementById("div");
+div.innerText = "Hello, I'm a div!";
+div.style.color = "#0000D6";
+div.style.backgroundColor = "yellow";
+div.style.margin = "20px";
+div.style.padding = "20px";
+div.style.fontSize = "18px";
+div.style.fontWeight = "bold";
+div.style.height = "200px";
+div.style.width = "300px";
